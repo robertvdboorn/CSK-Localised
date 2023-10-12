@@ -3,39 +3,66 @@ import { withUniformGetServerSideProps } from '@uniformdev/canvas-next/route';
 import { Page } from '@/components';
 import { getBreadcrumbs, getRouteClient } from '@/utilities/canvas/canvasClients';
 import { localize } from '@uniformdev/canvas';
+import { UniformPreviewData } from '@uniformdev/canvas-next/.';
+import { GetServerSidePropsContext } from 'next';
+import { ParsedUrlQuery } from 'querystring';
+import { Locales } from '@/constants/locales';
+
+async function redirectToDefaultLanguage() {
+  return {
+    redirect: {
+      destination: `/${Locales.Default}`,
+      permanent: false,
+    },
+  };
+}
 
 // SSR configuration is enabled by default
-export const getServerSideProps = withUniformGetServerSideProps({
-  requestOptions: context => ({
-    state: Boolean(context.preview) ? CANVAS_DRAFT_STATE : CANVAS_PUBLISHED_STATE,
-  }),
-  modifyPath(path) {
-    return path.length === 0 || path === '/' ? '/en' : path;
-  },
-  client: getRouteClient(),
-  handleComposition: async (routeResponse, _context) => {
-    const { composition, errors } = routeResponse.compositionApiResponse || {};
+export const getServerSideProps = async (context: GetServerSidePropsContext<ParsedUrlQuery, UniformPreviewData>) => {
+  const { params } = context;
+  const slugPath: string | string[] | undefined = params?.slug;
+  const isPreview = context.preview;
+  // Check if slugPath is undefined, and if so, handle it accordingly
+  if (slugPath === undefined && !isPreview) {
+    return redirectToDefaultLanguage();
+  }
 
-    if (errors?.some(e => e.type === 'data' || e.type === 'binding')) {
-      return { notFound: true };
-    }
+  return withUniformGetServerSideProps({
+    requestOptions: context => ({
+      state: Boolean(context.preview) ? CANVAS_DRAFT_STATE : CANVAS_PUBLISHED_STATE,
+    }),
+    /*
+    // This function is used to modify the path before it is used to fetch data
+    // If we don't want to use a redirect, we can use this to modify the path
+    modifyPath(path) {
+      return path.length === 0 || path === '/' ? '/en' : path;
+    },
+    */
+    client: getRouteClient(),
+    handleComposition: async (routeResponse, _context) => {
+      const { composition, errors } = routeResponse.compositionApiResponse || {};
 
-    const preview = Boolean(_context.preview);
-    const breadcrumbs = await getBreadcrumbs({
-      compositionId: composition._id,
-      preview,
-      dynamicTitle: composition?.parameters?.pageTitle?.value as string,
-      resolvedUrl: _context.resolvedUrl,
-    });
+      if (errors?.some(e => e.type === 'data' || e.type === 'binding')) {
+        return { notFound: true };
+      }
 
-    const locale = routeResponse.dynamicInputs?.language || 'en';
-    await localize({ composition, locale });
+      const preview = Boolean(_context.preview);
+      const breadcrumbs = await getBreadcrumbs({
+        compositionId: composition._id,
+        preview,
+        dynamicTitle: composition?.parameters?.pageTitle?.value as string,
+        resolvedUrl: _context.resolvedUrl,
+      });
 
-    return {
-      props: { preview, data: composition || null, context: { breadcrumbs } },
-    };
-  },
-});
+      const locale = routeResponse.dynamicInputs?.language || 'en';
+      await localize({ composition, locale });
+
+      return {
+        props: { preview, data: composition || null, context: { breadcrumbs } },
+      };
+    },
+  })(context);
+};
 
 export default Page;
 
