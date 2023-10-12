@@ -2,12 +2,16 @@ import { CANVAS_DRAFT_STATE, CANVAS_PUBLISHED_STATE } from '@uniformdev/canvas';
 import { withUniformGetServerSideProps } from '@uniformdev/canvas-next/route';
 import { Page } from '@/components';
 import { getBreadcrumbs, getRouteClient } from '@/utilities/canvas/canvasClients';
+import { localize } from '@uniformdev/canvas';
 
 // SSR configuration is enabled by default
 export const getServerSideProps = withUniformGetServerSideProps({
   requestOptions: context => ({
     state: Boolean(context.preview) ? CANVAS_DRAFT_STATE : CANVAS_PUBLISHED_STATE,
   }),
+  modifyPath(path) {
+    return path.length === 0 || path === '/' ? '/en' : path;
+  },
   client: getRouteClient(),
   handleComposition: async (routeResponse, _context) => {
     const { composition, errors } = routeResponse.compositionApiResponse || {};
@@ -23,6 +27,9 @@ export const getServerSideProps = withUniformGetServerSideProps({
       dynamicTitle: composition?.parameters?.pageTitle?.value as string,
       resolvedUrl: _context.resolvedUrl,
     });
+
+    const locale = routeResponse.dynamicInputs?.language || 'en';
+    await localize({ composition, locale });
 
     return {
       props: { preview, data: composition || null, context: { breadcrumbs } },
