@@ -54,7 +54,7 @@ export const getServerSideProps = async (context: GetServerSidePropsContext<Pars
         resolvedUrl: _context.resolvedUrl,
       });
 
-      const locale = routeResponse.dynamicInputs?.language || 'en';
+      const locale = routeResponse.dynamicInputs?.language || Locales.Default;
       await localize({ composition, locale });
 
       return {
