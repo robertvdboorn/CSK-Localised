@@ -18,7 +18,6 @@ export const getRouteClient = () => {
     apiKey,
     projectId,
     edgeApiHost,
-    bypassCache: true,
   });
 
   return client;
@@ -37,7 +36,6 @@ export const getProjectMapClient = () => {
     apiKey,
     apiHost,
     projectId,
-    bypassCache: true,
   });
 };
 
