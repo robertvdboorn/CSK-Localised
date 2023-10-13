@@ -1,0 +1,22 @@
+created: '2023-10-12T22:19:29.877478+00:00'
+modified: '2023-10-12T22:23:44.419951+00:00'
+entry:
+  _id: 78a8681c-f69e-47ef-95b1-c28104939538
+  _name: Uniform’s Component Starter Kit
+  _slug: hero-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Uniform’s Component Starter Kit
+    description:
+      type: text
+      value: >-
+        An essential set of components you need to start building personalized
+        web experiences with Uniform.
+    eyebrowText:
+      type: text
+      value: hello and welcome! this is
+    primaryButtonCopy:
+      type: text
+      value: Browse THE components

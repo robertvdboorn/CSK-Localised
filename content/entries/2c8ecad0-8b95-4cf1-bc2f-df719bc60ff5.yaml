@@ -1,0 +1,16 @@
+created: '2023-10-12T23:30:53.577164+00:00'
+modified: '2023-10-12T23:31:37.551426+00:00'
+entry:
+  _id: 2c8ecad0-8b95-4cf1-bc2f-df719bc60ff5
+  _name: Frequently Asked Questions
+  _slug: faq-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Frequently Asked Questions
+    description:
+      type: text
+      value: >-
+        Answer your customers possible questions here, it will increase the
+        conversion rate as well as support or chat requests.

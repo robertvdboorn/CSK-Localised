@@ -1,0 +1,16 @@
+created: '2023-10-12T23:03:57.210211+00:00'
+modified: '2023-10-12T23:04:16.438514+00:00'
+entry:
+  _id: ae8ae7ca-dd3d-4b85-86c2-7e810ec4f23e
+  _name: Geen integratie? Geen probleem. Geen code vereist.
+  _slug: f5-homepage-nl
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Geen integratie? Geen probleem. Geen code vereist.
+    description:
+      type: text
+      value: >-
+        Haal inhoud op van elke REST API zonder ook maar één
+        ontwikkelaarsticket.

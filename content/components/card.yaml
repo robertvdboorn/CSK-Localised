@@ -164,15 +164,14 @@ parameters:
       maxValue: 100
       minValue: 0
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
-description: ''
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/csk-preview-images/UniformTheme/Card_preview_image
 useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2023-08-28T12:30:17.667255+00:00'
-updated: '2023-08-28T12:30:17.667255+00:00'
+created: '2023-10-12T18:17:01.641201+00:00'
+updated: '2023-10-12T18:17:01.641201+00:00'
 variants:
   - id: backgroundImage
     name: Background Image

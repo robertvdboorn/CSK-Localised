@@ -1,0 +1,61 @@
+id: callToAction
+name: Call to Action
+created: '2023-10-12T22:00:29.282496+00:00'
+updated: '2023-10-12T22:00:29.282496+00:00'
+slugSettings:
+  required: 'no'
+fields:
+  - id: group_content
+    name: Content
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - eyebrowText
+        - title
+        - description
+  - id: eyebrowText
+    name: Eyebrow Text
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: description
+    name: Description
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+      linesCount: 10
+  - id: group_primaryCta
+    name: Primary CTA
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - primaryButtonCopy
+  - id: primaryButtonCopy
+    name: Primary Button Copy
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: group_secondaryCta
+    name: Secondary CTA
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - secondaryButtonCopy
+  - id: secondaryButtonCopy
+    name: Secondary Button Copy
+    type: text
+    helpText: ''
+    typeConfig: null
+entryName: title
+description: ''
+icon: transcript
+type: contentType

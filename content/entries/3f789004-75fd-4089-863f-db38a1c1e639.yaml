@@ -1,0 +1,17 @@
+created: '2023-10-12T23:36:47.248559+00:00'
+modified: '2023-10-12T23:37:01.408957+00:00'
+entry:
+  _id: 3f789004-75fd-4089-863f-db38a1c1e639
+  _name: Kan ik mijn eigen inhoud en gegevens koppelen aan deze
+  _slug: faqentry4-homepage-nl
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Kan ik mijn eigen inhoud en gegevens koppelen aan deze componenten?
+    description:
+      type: text
+      value: >-
+        Natuurlijk! Je kunt een vooraf gebouwde Uniform-integratie gebruiken of
+        verbinding maken met elke op REST gebaseerde API-bron met Uniform. Je
+        kunt meer leren in onze documentatie.

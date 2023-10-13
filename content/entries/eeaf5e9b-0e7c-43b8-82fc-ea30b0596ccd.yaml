@@ -1,0 +1,20 @@
+created: '2023-10-12T23:21:39.509949+00:00'
+modified: '2023-10-12T23:26:34.454007+00:00'
+entry:
+  _id: eeaf5e9b-0e7c-43b8-82fc-ea30b0596ccd
+  _name: Heroes
+  _slug: c-homepage-nl
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Heroes
+    description:
+      type: text
+      value: Niet alleen voor één dag
+    eyebrowText:
+      type: text
+      value: Nieuw
+    primaryButtonCopy:
+      type: text
+      value: Zie meer

@@ -1,0 +1,16 @@
+created: '2023-10-12T23:01:50.130335+00:00'
+modified: '2023-10-12T23:02:11.797957+00:00'
+entry:
+  _id: 3b5f6b8a-c604-41a8-9ad2-170956e0916c
+  _name: Build web experiences visually with real-time preview
+  _slug: f6-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Build web experiences visually with real-time preview
+    description:
+      type: text
+      value: >-
+        Create new pages from existing components, try different variants and
+        customize the theme.

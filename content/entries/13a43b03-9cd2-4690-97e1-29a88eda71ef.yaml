@@ -1,0 +1,45 @@
+created: '2023-10-12T21:05:09.33886+00:00'
+modified: '2023-10-12T21:11:29.776579+00:00'
+entry:
+  _id: 13a43b03-9cd2-4690-97e1-29a88eda71ef
+  _name: Uniform’s Component Starter Kit - English
+  _slug: pagedata-homepage-en
+  type: pageData
+  fields:
+    pageTitle:
+      type: text
+      value: Uniform’s Component Starter Kit - English
+    twitterCard:
+      type: select
+      value: summary_large_image
+    pageKeywords:
+      type: text
+      value: uniform, nextjs, composable, cms, commerce
+    twitterImage:
+      type: text
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692277476/csk-marketing/Blog_header_CMSComparisonGuide_f5t1bj_tvwflz.png
+    twitterTitle:
+      type: text
+      value: Test Twitter Title
+    openGraphType:
+      type: select
+      value: website
+    openGraphImage:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692277476/csk-marketing/Blog_header_CMSComparisonGuide_f5t1bj_tvwflz.png
+    openGraphTitle:
+      type: text
+      value: Uniform // Component Starter Kit
+    twitterDescription:
+      type: text
+      value: Test Twitter Description
+    pageMetaDescription:
+      type: text
+      value: >-
+        Essential set of components you need to start building personalizable
+        web experiences with Uniform.
+    overlayTitleToTwitterImage:
+      type: checkbox
+      value: true

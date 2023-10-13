@@ -1,0 +1,17 @@
+created: '2023-10-12T23:34:44.092807+00:00'
+modified: '2023-10-12T23:35:04.123212+00:00'
+entry:
+  _id: 44d41426-9b44-453d-8512-ef45893a085d
+  _name: Can I connect my own content and data to these components?
+  _slug: faqentry4-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Can I connect my own content and data to these components?
+    description:
+      type: text
+      value: >-
+        Of course! You can use a pre-built Uniform integration or connect to any
+        REST-based API source using Uniform. You can learn more in our
+        documentation.

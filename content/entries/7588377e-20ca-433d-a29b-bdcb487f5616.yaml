@@ -1,0 +1,17 @@
+created: '2023-10-12T23:10:31.369592+00:00'
+modified: '2023-10-12T23:12:16.603541+00:00'
+entry:
+  _id: 7588377e-20ca-433d-a29b-bdcb487f5616
+  _name: Uitgelichte componenten
+  _slug: cb-homepage-nl
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Uitgelichte componenten
+    description:
+      type: text
+      value: >-
+        Er zijn veel componenten om uit te kiezen, maar dit zijn onze
+        favorieten. Er komen er nog meer, dus het is altijd de moeite waard om
+        opnieuw te kijken.

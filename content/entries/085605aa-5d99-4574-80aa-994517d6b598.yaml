@@ -1,0 +1,20 @@
+created: '2023-10-12T22:56:20.061408+00:00'
+modified: '2023-10-12T22:57:42.360938+00:00'
+entry:
+  _id: 085605aa-5d99-4574-80aa-994517d6b598
+  _name: Unleash your content. Unchain from the backlog.
+  _slug: fc2-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Unleash your content. Unchain from the backlog.
+    description:
+      type: text
+      value: >-
+        Our Component Starter Kit is built on a TNT stack - Typescript, Next.js,
+        and TailwindCSS. That means it’s completely customizable and adaptable
+        for what you need to build.
+    eyebrowText:
+      type: text
+      value: something for the marketer

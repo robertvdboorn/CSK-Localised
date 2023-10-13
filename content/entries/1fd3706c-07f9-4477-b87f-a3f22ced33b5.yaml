@@ -1,0 +1,16 @@
+created: '2023-10-12T23:04:22.970702+00:00'
+modified: '2023-10-12T23:04:36.047244+00:00'
+entry:
+  _id: 1fd3706c-07f9-4477-b87f-a3f22ced33b5
+  _name: Bouw visuele webervaringen met real-time voorbeeld
+  _slug: f6-homepage-nl
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Bouw visuele webervaringen met real-time voorbeeld
+    description:
+      type: text
+      value: >-
+        Creëer nieuwe pagina's van bestaande componenten, probeer verschillende
+        varianten en pas het thema aan.

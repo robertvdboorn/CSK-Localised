@@ -1,0 +1,17 @@
+created: '2023-10-12T22:38:00.852024+00:00'
+modified: '2023-10-12T22:38:21.716791+00:00'
+entry:
+  _id: b4bd52e8-0148-432f-99b3-73b40363ed3b
+  _name: Volledig aanpasbaar
+  _slug: f3-homepage-nl
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Volledig aanpasbaar
+    description:
+      type: text
+      value: >-
+        De hele bibliotheek is open source en is gebaseerd op TailwindCSS en
+        DaisyUI, waardoor het gemakkelijk is om het aan te passen aan uw
+        merkstijl.

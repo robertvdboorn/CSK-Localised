@@ -1,0 +1,24 @@
+composition:
+  _name: Accordion Item Pattern
+  _id: c71f40c4-7d89-494a-8588-4b817527257d
+  type: accordionItem
+  parameters:
+    title:
+      type: text
+      value: ${#jptr:/Call to Action By Slug Content/entry/fields/title/value}
+    description:
+      type: text
+      value: ${#jptr:/Call to Action By Slug Content/entry/fields/description/value}
+  _dataResources:
+    Call to Action By Slug Content:
+      type: callToActionBySlug
+      variables:
+        slug: faqentry-homepage-en
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      title: 'no'
+created: '2023-10-12T23:38:11.432266+00:00'
+modified: '2023-10-12T23:38:11.432266+00:00'
+pattern: true

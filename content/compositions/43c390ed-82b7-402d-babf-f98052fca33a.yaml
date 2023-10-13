@@ -1,0 +1,50 @@
+composition:
+  _name: Call to Action Pattern
+  _id: 43c390ed-82b7-402d-babf-f98052fca33a
+  type: callToAction
+  parameters:
+    title:
+      type: text
+      value: ${#jptr:/Call to Action By Slug Content/entry/fields/title/value}
+    titleStyle:
+      type: tp-title-style-parameter
+      value: h1
+    description:
+      type: text
+      value: ${#jptr:/Call to Action By Slug Content/entry/fields/description/value}
+    eyebrowText:
+      type: text
+      value: ${#jptr:/Call to Action By Slug Content/entry/fields/eyebrowText/value}
+    primaryButtonCopy:
+      type: text
+      value: >-
+        ${#jptr:/Call to Action By Slug
+        Content/entry/fields/primaryButtonCopy/value}
+    secondaryButtonCopy:
+      type: text
+      value: >-
+        ${#jptr:/Call to Action By Slug
+        Content/entry/fields/secondaryButtonCopy/value}
+  _dataResources:
+    Call to Action By Slug Content:
+      type: callToActionBySlug
+      variables:
+        slug: cta-homepage-en
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    variants: true
+    parameters:
+      title: 'no'
+      titleStyle: 'yes'
+      description: 'no'
+      eyebrowText: 'no'
+      primaryButtonCopy: 'no'
+      primaryButtonLink: 'yes'
+      primaryButtonStyle: 'yes'
+      secondaryButtonCopy: 'no'
+      secondaryButtonLink: 'yes'
+      secondaryButtonStyle: 'yes'
+created: '2023-10-12T22:07:43.001389+00:00'
+modified: '2023-10-12T22:26:57.72496+00:00'
+pattern: true

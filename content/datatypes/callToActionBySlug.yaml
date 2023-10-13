@@ -1,0 +1,18 @@
+id: callToActionBySlug
+displayName: Call to Action By Slug
+ttl: 30
+path: /single-by-slug
+custom:
+  proposedName: Call to Action
+  allowedContentTypes:
+    - callToAction
+  uniformProjectId: ae669a28-4e57-4f4d-af37-984c52113ed9
+method: GET
+purgeKey: 138c1d6e-b199-4cfc-b288-2cf135194662
+archetype: singleEntryBySlug
+variables:
+  slug:
+    type: text
+    default: ''
+dataSourceId: cskLocalised
+allowedOnComponents: []

@@ -1,0 +1,20 @@
+created: '2023-10-12T23:22:08.052454+00:00'
+modified: '2023-10-12T23:26:38.021848+00:00'
+entry:
+  _id: cdf80b3a-e873-41a9-97ce-217cd2486b67
+  _name: Kaartblokken
+  _slug: c2-homepage-nl
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Kaartblokken
+    description:
+      type: text
+      value: Kies een kaart, welke kaart dan ook...
+    eyebrowText:
+      type: text
+      value: Nieuw
+    primaryButtonCopy:
+      type: text
+      value: Speel met meer kaarten

@@ -1,0 +1,20 @@
+created: '2023-10-12T23:20:20.103652+00:00'
+modified: '2023-10-12T23:26:23.757601+00:00'
+entry:
+  _id: dcf4a9c6-8994-4de2-987c-f805e6ec7426
+  _name: Card Blocks
+  _slug: c2-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Card Blocks
+    description:
+      type: text
+      value: Pick a card, any card…
+    eyebrowText:
+      type: text
+      value: New
+    primaryButtonCopy:
+      type: text
+      value: Play with more cards

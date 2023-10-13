@@ -1,0 +1,20 @@
+created: '2023-10-12T22:30:18.20741+00:00'
+modified: '2023-10-12T22:31:04.02867+00:00'
+entry:
+  _id: d03797d1-3d9a-4ea9-8cc7-39887f6ce2cb
+  _name: Gebouwd met de moderne stack!
+  _slug: fc-homepage-nl
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: ' Gebouwd met de moderne stack!'
+    description:
+      type: text
+      value: >-
+        Onze Component Starterset is gebouwd op een TNT-stack - Typescript,
+        Next.js en TailwindCSS. Dat betekent dat het volledig aanpasbaar en
+        flexibel is voor wat u wilt bouwen.
+    eyebrowText:
+      type: text
+      value: iets voor de ontwikkelaars

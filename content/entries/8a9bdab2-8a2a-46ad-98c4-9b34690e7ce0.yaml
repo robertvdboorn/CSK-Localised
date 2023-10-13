@@ -1,0 +1,21 @@
+created: '2023-10-12T23:18:48.893904+00:00'
+modified: '2023-10-12T23:26:44.824425+00:00'
+entry:
+  _id: 8a9bdab2-8a2a-46ad-98c4-9b34690e7ce0
+  _name: Heroes
+  _slug: c-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Heroes
+    description:
+      type: text
+      value: |
+        Not just for one day
+    eyebrowText:
+      type: text
+      value: New
+    primaryButtonCopy:
+      type: text
+      value: See more

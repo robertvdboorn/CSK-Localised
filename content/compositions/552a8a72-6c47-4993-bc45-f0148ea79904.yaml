@@ -5,41 +5,57 @@ composition:
   parameters:
     pageTitle:
       type: text
-      value: Uniform’s Component Starter Kit
+      value: ${#jptr:/Filter Page Data By Slug Content/entry/fields/pageTitle/value}
     twitterCard:
       type: select
-      value: summary_large_image
+      value: >-
+        ${#jptr:/Filter Page Data By Slug
+        Content/entry/fields/twitterCard/value}
     pageKeywords:
       type: text
-      value: uniform, nextjs, composable, cms, commerce
+      value: >-
+        ${#jptr:/Filter Page Data By Slug
+        Content/entry/fields/pageKeywords/value}
     twitterImage:
       type: image
       value: >-
-        https://res.cloudinary.com/uniform-demos/image/upload/v1692277476/csk-marketing/Blog_header_CMSComparisonGuide_f5t1bj_tvwflz.png
+        ${#jptr:/Filter Page Data By Slug
+        Content/entry/fields/twitterImage/value}
     twitterTitle:
       type: text
-      value: Test Twitter Title
+      value: >-
+        ${#jptr:/Filter Page Data By Slug
+        Content/entry/fields/twitterTitle/value}
     openGraphType:
       type: select
-      value: website
+      value: >-
+        ${#jptr:/Filter Page Data By Slug
+        Content/entry/fields/openGraphType/value}
     openGraphImage:
       type: image
       value: >-
-        https://res.cloudinary.com/uniform-demos/image/upload/v1692277476/csk-marketing/Blog_header_CMSComparisonGuide_f5t1bj_tvwflz.png
+        ${#jptr:/Filter Page Data By Slug
+        Content/entry/fields/openGraphImage/value}
     openGraphTitle:
       type: text
-      value: Uniform // Component Starter Kit
+      value: >-
+        ${#jptr:/Filter Page Data By Slug
+        Content/entry/fields/openGraphTitle/value}
     twitterDescription:
       type: text
-      value: Test Twitter Description
+      value: >-
+        ${#jptr:/Filter Page Data By Slug
+        Content/entry/fields/twitterDescription/value}
     pageMetaDescription:
       type: text
       value: >-
-        Essential set of components you need to start building personalizable
-        web experiences with Uniform.
+        ${#jptr:/Filter Page Data By Slug
+        Content/entry/fields/pageMetaDescription/value}
     overlayTitleToTwitterImage:
       type: checkbox
-      value: true
+      value: >-
+        ${#jptr:/Filter Page Data By Slug
+        Content/entry/fields/overlayTitleToTwitterImage/value}
   slots:
     pageFooter:
       - _id: a671f401-5678-42be-a5d7-de05de74b2f3
@@ -50,111 +66,50 @@ composition:
         type: header
         _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
     pageContent:
-      - _id: 1f352a25-7acb-4893-a11c-f06bd45f27ab
+      - _id: 7b5727cd-0fb9-499d-a25e-20840390f257
         type: hero
-        variant: backgroundDarkImage
-        parameters:
-          image:
-            type: image
-            value: >-
-              https://res.cloudinary.com/uniform-demos/image/upload/v1692276482/csk-marketing/Rectangle_7_2_uupdjo_wm94da.webp
-          title:
-            type: text
-            value: Uniform’s Component Starter Kit
-          titleStyle:
-            type: tp-title-style-parameter
-            value: h1
-          description:
-            type: text
-            value: >-
-              An essential set of components you need to start building
-              personalized web experiences with Uniform.
-          eyebrowText:
-            type: text
-            value: hello and welcome! this is
-          primaryButtonCopy:
-            type: text
-            value: Browse THE components
-          primaryButtonLink:
-            type: link
-            value:
-              path: /components
-              type: projectMapNode
-              nodeId: cab3997c-e1bb-4846-be31-9afeae37c5d4
-              projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-          primaryButtonStyle:
-            type: tp-button-style-parameter
-            value: primary
-      - _id: 7e072bd7-bbe7-4f97-8707-635f74d6ea8e
+        _pattern: e3ae765b-6215-42c5-8292-b5c0ba4140e8
+        _dataResources:
+          Call to Action By Slug Content:
+            type: callToActionBySlug
+            variables:
+              slug: hero-homepage-${language}
+      - _id: 398f9478-9bcd-497e-8b79-8151dd88fb5a
         type: callToAction
-        variant: ''
-        parameters:
-          title:
-            type: text
-            value: How will Component Starter Kit help you?
-          titleStyle:
-            type: tp-title-style-parameter
-            value: h2
-          description:
-            type: text
-            value: >-
-              The Component Starter kit gives you the key building blocks to
-              create dynamic and compelling web experiences and demonstrate the
-              power of digital experience composition in Uniform. Just install,
-              customize and start creating.
-          eyebrowText:
-            type: text
-            value: ''
+        _pattern: 43c390ed-82b7-402d-babf-f98052fca33a
+        _dataResources:
+          Call to Action By Slug Content:
+            type: callToActionBySlug
+            variables:
+              slug: cta-homepage-${language}
       - _id: cc1d51b7-9e89-4031-8658-5b0d81ba15a7
         type: featuredCallout
         slots:
           feature:
-            - _id: 845be47f-7b29-4061-9383-2461814bdcee
+            - _id: f4ffb6db-adf6-4167-9b00-cffa3206cd9a
               type: feature
-              parameters:
-                icon:
-                  type: image
-                  value: >-
-                    https://res.cloudinary.com/uniform-demos/image/upload/v1692276689/csk-icons/icon-understand_eytz6h_cgirir.svg
-                title:
-                  type: text
-                  value: Clone, run locally, and customize
-                description:
-                  type: text
-                  value: >-
-                    We designed the starter kit for you to take it home and
-                    customize it according to your needs. Go nuts!
-            - _id: 2a2bb40f-f543-4566-97c8-7cd14cb82bc1
+              _pattern: 42295980-427f-4c92-8594-c07db8d2db88
+              _dataResources:
+                Call to Action By Slug Content:
+                  type: callToActionBySlug
+                  variables:
+                    slug: f-homepage-${language}
+            - _id: ad9d6729-8040-4c46-9842-403f92b6fc21
               type: feature
-              parameters:
-                icon:
-                  type: image
-                  value: >-
-                    https://res.cloudinary.com/uniform-demos/image/upload/v1692276740/csk-icons/icon-improve_jkerfy_z0qxiy.svg
-                title:
-                  type: text
-                  value: Optimized for performance
-                description:
-                  type: text
-                  value: >-
-                    Lightweight React components help keep your Core Web Vitals
-                    green.
-            - _id: 19438067-1453-4709-9346-914fdac47fe0
+              _pattern: 42295980-427f-4c92-8594-c07db8d2db88
+              _dataResources:
+                Call to Action By Slug Content:
+                  type: callToActionBySlug
+                  variables:
+                    slug: f2-homepage-${language}
+            - _id: eeb37284-00f8-40a4-b6b1-cf14a2cc0b05
               type: feature
-              parameters:
-                icon:
-                  type: image
-                  value: >-
-                    https://res.cloudinary.com/uniform-demos/image/upload/v1692276654/csk-icons/icon-drive_le2khu_i6jwy8.svg
-                title:
-                  type: text
-                  value: Completely adaptable
-                description:
-                  type: text
-                  value: >-
-                    The whole library is open source and based on TailwindCSS
-                    and DaisyUI, making it easy for you to adapt to your brand
-                    style.
+              _pattern: 42295980-427f-4c92-8594-c07db8d2db88
+              _dataResources:
+                Call to Action By Slug Content:
+                  type: callToActionBySlug
+                  variables:
+                    slug: f3-homepage-${language}
         parameters:
           image:
             type: image
@@ -162,70 +117,50 @@ composition:
               https://res.cloudinary.com/uniform-demos/image/upload/v1692276539/csk-marketing/Hero-Rectangle_nof1km_qy2ow6.png
           title:
             type: text
-            value: Built with the modern stack!
+            value: >-
+              ${#jptr:/Call to Action By Slug Content
+              FC1/entry/fields/title/value}
           titleStyle:
             type: tp-title-style-parameter
             value: h2
           description:
             type: text
-            value: >+
-              Our Component Starter Kit is built on a TNT stack - Typescript,
-              Next.js, and TailwindCSS. That means it’s completely customizable
-              and adaptable for what you need to build.
-
+            value: >-
+              ${#jptr:/Call to Action By Slug Content
+              FC1/entry/fields/description/value}
           eyebrowText:
             type: text
-            value: something for the developers
+            value: >-
+              ${#jptr:/Call to Action By Slug Content
+              FC1/entry/fields/eyebrowText/value}
       - _id: 45ca2e18-6110-4047-8f54-2f9ae43d047b
         type: featuredCallout
         slots:
           feature:
-            - _id: 068668d5-520c-4bc5-b72a-9bda8beb189f
+            - _id: f76450ed-3a4b-4037-9f41-a8057f4d5d3b
               type: feature
-              parameters:
-                icon:
-                  type: image
-                  value: >-
-                    https://res.cloudinary.com/uniform-demos/image/upload/v1692276654/csk-icons/icon-drive_le2khu_i6jwy8.svg
-                title:
-                  type: text
-                  value: Bring your CMS and commerce content
-                description:
-                  type: text
-                  value: >-
-                    Leverage our latest integrations to bring content from your
-                    own Headless CMS and/or Commerce systems without any glue
-                    code.
-            - _id: b637acaa-f979-4bde-aa94-086c1ccf9c02
+              _pattern: 42295980-427f-4c92-8594-c07db8d2db88
+              _dataResources:
+                Call to Action By Slug Content:
+                  type: callToActionBySlug
+                  variables:
+                    slug: f4-homepage-${language}
+            - _id: f0a21914-6b1e-429e-949f-7ba8a3dbeb04
               type: feature
-              parameters:
-                icon:
-                  type: image
-                  value: >-
-                    https://res.cloudinary.com/uniform-demos/image/upload/v1692276689/csk-icons/icon-understand_eytz6h_cgirir.svg
-                title:
-                  type: text
-                  value: ' No integration? No problem. No code required.'
-                description:
-                  type: text
-                  value: >-
-                    Bring content from any REST API without a single developer
-                    ticket.
-            - _id: c8205ca3-c293-4338-8392-83574cf74dd0
+              _pattern: 42295980-427f-4c92-8594-c07db8d2db88
+              _dataResources:
+                Call to Action By Slug Content:
+                  type: callToActionBySlug
+                  variables:
+                    slug: f5-homepage-${language}
+            - _id: 017c2722-346f-4c57-8ae2-fc0cf0e03fa9
               type: feature
-              parameters:
-                icon:
-                  type: image
-                  value: >-
-                    https://res.cloudinary.com/uniform-demos/image/upload/v1692276740/csk-icons/icon-improve_jkerfy_z0qxiy.svg
-                title:
-                  type: text
-                  value: Build web experiences visually with real-time preview
-                description:
-                  type: text
-                  value: >-
-                    Create new pages from existing components, try different
-                    variants and customize the theme.
+              _pattern: 42295980-427f-4c92-8594-c07db8d2db88
+              _dataResources:
+                Call to Action By Slug Content:
+                  type: callToActionBySlug
+                  variables:
+                    slug: f6-homepage-${language}
         variant: imageRight
         parameters:
           image:
@@ -234,20 +169,22 @@ composition:
               https://res.cloudinary.com/uniform-demos/image/upload/v1692276539/csk-marketing/Hero-Rectangle_nof1km_qy2ow6.png
           title:
             type: text
-            value: Unleash your content. Unchain from the backlog.
+            value: >-
+              ${#jptr:/Call to Action By Slug Content
+              FC2/entry/fields/title/value}
           titleStyle:
             type: tp-title-style-parameter
             value: h2
           description:
             type: text
-            value: >+
-              Our Component Starter Kit is built on a TNT stack - Typescript,
-              Next.js, and TailwindCSS. That means it’s completely customizable
-              and adaptable for what you need to build.
-
+            value: >-
+              ${#jptr:/Call to Action By Slug Content
+              FC2/entry/fields/description/value}
           eyebrowText:
             type: text
-            value: something for the marketer
+            value: >-
+              ${#jptr:/Call to Action By Slug Content
+              FC2/entry/fields/eyebrowText/value}
       - _id: a952a7c9-697c-4dc4-a8e5-4614fef5419b
         type: cardBlock
         slots:
@@ -256,134 +193,30 @@ composition:
               type: grid
               slots:
                 grid-inner:
-                  - _id: 5aa9b20e-3146-455e-a88d-a5c8769a5c6c
+                  - _id: 50df2f72-3d46-4bdb-a066-d17ea9cd8008
                     type: card
-                    variant: backgroundImage
-                    parameters:
-                      badge:
-                        type: text
-                        value: New
-                      image:
-                        type: image
-                        value: >-
-                          https://res.cloudinary.com/uniform-demos/image/upload/v1692276539/csk-marketing/Hero-Rectangle_nof1km_qy2ow6.png
-                      title:
-                        type: text
-                        value: Heroes
-                      objectFit:
-                        type: select
-                        value: cover
-                      badgeStyle:
-                        type: tp-badge-style-parameter
-                        value: accent
-                      buttonCopy:
-                        type: text
-                        value: See more
-                      buttonLink:
-                        type: link
-                        value:
-                          path: /:language/components/heroes
-                          type: projectMapNode
-                          nodeId: fc8a9187-2ae6-4a07-b6e4-6a81b97b0779
-                          projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                      buttonStyle:
-                        type: tp-button-style-parameter
-                        value: primary
-                      description:
-                        type: text
-                        value: |
-                          Not just for one day
-                      overlayColor:
-                        type: tp-color-style-parameter
-                        value: base-300
-                      overlayOpacity:
-                        type: tp-slider-parameter
-                        value: 50%
-                  - _id: fc361f40-ad1a-4950-a03c-4a84f5cfc423
+                    _pattern: 5159c6c7-e01a-4170-9ea0-d5313320d02c
+                    _dataResources:
+                      Call to Action By Slug Content:
+                        type: callToActionBySlug
+                        variables:
+                          slug: c-homepage-${language}
+                  - _id: 20242046-b5e0-442d-97df-87448d0f3627
                     type: card
-                    variant: backgroundImage
-                    parameters:
-                      badge:
-                        type: text
-                        value: New
-                      image:
-                        type: image
-                        value: >-
-                          https://res.cloudinary.com/uniform-demos/image/upload/v1692276539/csk-marketing/Hero-Rectangle_nof1km_qy2ow6.png
-                      title:
-                        type: text
-                        value: Card Blocks
-                      objectFit:
-                        type: select
-                        value: cover
-                      badgeStyle:
-                        type: tp-badge-style-parameter
-                        value: accent
-                      buttonCopy:
-                        type: text
-                        value: Play with more cards
-                      buttonLink:
-                        type: link
-                        value:
-                          path: /:language/components/card-blocks
-                          type: projectMapNode
-                          nodeId: 88ede0b7-bb7c-4d6b-b3f8-10b545bd986b
-                          projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                      buttonStyle:
-                        type: tp-button-style-parameter
-                        value: primary
-                      description:
-                        type: text
-                        value: Pick a card, any card…
-                      overlayColor:
-                        type: tp-color-style-parameter
-                        value: base-300
-                      overlayOpacity:
-                        type: tp-slider-parameter
-                        value: 50%
-                  - _id: 4316b6f4-c818-4f33-9d6a-094f6c01818d
+                    _pattern: 5159c6c7-e01a-4170-9ea0-d5313320d02c
+                    _dataResources:
+                      Call to Action By Slug Content:
+                        type: callToActionBySlug
+                        variables:
+                          slug: c2-homepage-${language}
+                  - _id: 072e29eb-03b3-4028-94ec-9e5cb0c7b617
                     type: card
-                    variant: backgroundImage
-                    parameters:
-                      badge:
-                        type: text
-                        value: New
-                      image:
-                        type: image
-                        value: >-
-                          https://res.cloudinary.com/uniform-demos/image/upload/v1692276539/csk-marketing/Hero-Rectangle_nof1km_qy2ow6.png
-                      title:
-                        type: text
-                        value: Featured Callouts
-                      objectFit:
-                        type: select
-                        value: cover
-                      badgeStyle:
-                        type: tp-badge-style-parameter
-                        value: accent
-                      buttonCopy:
-                        type: text
-                        value: See more
-                      buttonLink:
-                        type: link
-                        value:
-                          path: /:language/components/featured-callouts
-                          type: projectMapNode
-                          nodeId: 97c2b0b3-66d9-4ecd-88dd-36bf5ce8144a
-                          projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
-                      buttonStyle:
-                        type: tp-button-style-parameter
-                        value: primary
-                      description:
-                        type: text
-                        value: |
-                          The call of the wild
-                      overlayColor:
-                        type: tp-color-style-parameter
-                        value: base-300
-                      overlayOpacity:
-                        type: tp-slider-parameter
-                        value: 50%
+                    _pattern: 5159c6c7-e01a-4170-9ea0-d5313320d02c
+                    _dataResources:
+                      Call to Action By Slug Content:
+                        type: callToActionBySlug
+                        variables:
+                          slug: c3-homepage-${language}
               parameters:
                 gapX:
                   type: tp-slider-parameter
@@ -400,7 +233,9 @@ composition:
         parameters:
           title:
             type: text
-            value: Featured components
+            value: >-
+              ${#jptr:/Call to Action By Slug Content
+              CB/entry/fields/title/value}
           titleStyle:
             type: tp-title-style-parameter
             value: h1
@@ -410,110 +245,239 @@ composition:
           description:
             type: text
             value: >-
-              There are lots of components to choose from, but these are our
-              favorites. There are more coming, so it's always worth checking
-              again.
+              ${#jptr:/Call to Action By Slug Content
+              CB/entry/fields/description/value}
       - _id: 5baddcdc-228e-4013-9243-ccfcfd7d8a17
         type: accordion
         slots:
           items:
-            - _id: 92d7f00f-d300-4fee-8f02-45305892ac4c
+            - _id: 0aed9473-f15a-4c4e-a16a-e1b0ca2c87c7
               type: accordionItem
-              parameters:
-                title:
-                  type: text
-                  value: How much does the Component Starter Kit cost?
-                description:
-                  type: text
-                  value: >-
-                    Exactly $0. These components are totally open source and
-                    available for anyone to use.
-            - _id: 40feaadf-2bb2-4d6c-87d7-d72487a6aab8
+              _pattern: c71f40c4-7d89-494a-8588-4b817527257d
+              _dataResources:
+                Call to Action By Slug Content:
+                  type: callToActionBySlug
+                  variables:
+                    slug: faqentry-homepage-${language}
+            - _id: 3550128e-638c-4572-9d0f-db0f3d4d9687
               type: accordionItem
-              parameters:
-                title:
-                  type: text
-                  value: Can I use these components for commercial projects?
-                description:
-                  type: text
-                  value: Yes you can! We’d be very happy if you do.
-            - _id: 6ef4f9f8-90e5-4fc6-8290-6a48b0f8046b
+              _pattern: c71f40c4-7d89-494a-8588-4b817527257d
+              _dataResources:
+                Call to Action By Slug Content:
+                  type: callToActionBySlug
+                  variables:
+                    slug: faqentry2-homepage-${language}
+            - _id: 6e884d34-b374-4949-958a-3bf4134de537
               type: accordionItem
-              parameters:
-                title:
-                  type: text
-                  value: Are there more components coming?
-                description:
-                  type: text
-                  value: >-
-                    There will be, and we have some big ideas. Get in touch if
-                    there’s anything you want to see here.
-            - _id: 68387eb3-5d35-4f58-99aa-3dcc7f628cfc
+              _pattern: c71f40c4-7d89-494a-8588-4b817527257d
+              _dataResources:
+                Call to Action By Slug Content:
+                  type: callToActionBySlug
+                  variables:
+                    slug: faqentry3-homepage-${language}
+            - _id: ffbadb98-6304-427a-9b51-ce61742cb55d
               type: accordionItem
-              parameters:
-                title:
-                  type: text
-                  value: Can I connect my own content and data to these components?
-                description:
-                  type: text
-                  value: >-
-                    Of course! You can use a pre-built Uniform integration or
-                    connect to any REST-based API source using Uniform. You can
-                    learn more in our documentation.
+              _pattern: c71f40c4-7d89-494a-8588-4b817527257d
+              _dataResources:
+                Call to Action By Slug Content:
+                  type: callToActionBySlug
+                  variables:
+                    slug: faqentry4-homepage-${language}
         parameters:
           title:
             type: text
-            value: Frequently Asked Questions
+            value: ${#jptr:/Call to Action By Slug Content/entry/fields/title/value}
           description:
             type: text
             value: >-
-              Answer your customers possible questions here, it will increase
-              the conversion rate as well as support or chat requests.
-      - _id: 8fff3946-2b9b-45c4-ab24-c56e5ef09d19
+              ${#jptr:/Call to Action By Slug
+              Content/entry/fields/description/value}
+      - _id: f8d84a75-d8be-4b9f-af31-3b2cb452b560
         type: hero
-        variant: imageRight
-        parameters:
-          image:
-            type: image
-            value: >-
-              https://res.cloudinary.com/uniform-demos/image/upload/v1692276539/csk-marketing/Hero-Rectangle_nof1km_qy2ow6.png
-          title:
-            type: text
-            value: >-
-              Now it's time to see how Uniform can help you accelerate building
-              modern digital experiences.
-          titleStyle:
-            type: tp-title-style-parameter
-            value: h1
-          description:
-            type: text
-            value: |
-              We’d love to show you.
-          eyebrowText:
-            type: text
-            value: Now this is Empowering!
-          primaryButtonCopy:
-            type: text
-            value: Book a free demo now
-          primaryButtonLink:
-            type: link
-            value:
-              path: https://uniform.dev/demo?utm_source=component-starter-kit
-              type: url
-          primaryButtonStyle:
-            type: tp-button-style-parameter
-            value: primary
-          secondaryButtonCopy:
-            type: text
-            value: No Uniform access? Request one
-          secondaryButtonLink:
-            type: link
-            value:
-              path: https://uniform.dev/try?utm_source=component-starter-kit
-              type: url
-          secondaryButtonStyle:
-            type: tp-button-style-parameter
-            value: link
-created: '2023-08-21T08:31:17.349473+00:00'
-modified: '2023-08-22T10:43:45.010611+00:00'
+        _pattern: e3ae765b-6215-42c5-8292-b5c0ba4140e8
+        _dataResources:
+          Call to Action By Slug Content:
+            type: callToActionBySlug
+            variables:
+              slug: hero2-homepage-${language}
+  _dataResources:
+    Call to Action By Slug Content:
+      type: callToActionBySlug
+      variables:
+        slug: faq-homepage-${language}
+    Filter Page Data By Slug Content:
+      type: filterPageDataBySlug
+      variables:
+        slug: pagedata-homepage-${language}
+    Call to Action By Slug Content CB:
+      type: callToActionBySlug
+      variables:
+        slug: cb-homepage-${language}
+    Call to Action By Slug Content FC1:
+      type: callToActionBySlug
+      variables:
+        slug: fc-homepage-${language}
+    Call to Action By Slug Content FC2:
+      type: callToActionBySlug
+      variables:
+        slug: fc2-homepage-${language}
+  _overrides:
+    017c2722-346f-4c57-8ae2-fc0cf0e03fa9:
+      parameters:
+        icon:
+          type: image
+          value: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/v1692276740/csk-icons/icon-improve_jkerfy_z0qxiy.svg
+    072e29eb-03b3-4028-94ec-9e5cb0c7b617:
+      variant: backgroundImage
+      parameters:
+        image:
+          type: image
+          value: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/v1692276539/csk-marketing/Hero-Rectangle_nof1km_qy2ow6.png
+        objectFit:
+          type: select
+          value: cover
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: accent
+        buttonLink:
+          type: link
+          value:
+            path: /:language/components/featured-callouts
+            type: projectMapNode
+            nodeId: 97c2b0b3-66d9-4ecd-88dd-36bf5ce8144a
+            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+            dynamicInputValues:
+              language: ${language}
+        overlayColor:
+          type: tp-color-style-parameter
+          value: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          value: 50%
+    20242046-b5e0-442d-97df-87448d0f3627:
+      variant: backgroundImage
+      parameters:
+        image:
+          type: image
+          value: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/v1692276539/csk-marketing/Hero-Rectangle_nof1km_qy2ow6.png
+        objectFit:
+          type: select
+          value: cover
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: accent
+        buttonLink:
+          type: link
+          value:
+            path: /:language/components/card-blocks
+            type: projectMapNode
+            nodeId: 88ede0b7-bb7c-4d6b-b3f8-10b545bd986b
+            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+            dynamicInputValues:
+              language: ${language}
+        overlayColor:
+          type: tp-color-style-parameter
+          value: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          value: 50%
+    50df2f72-3d46-4bdb-a066-d17ea9cd8008:
+      variant: backgroundImage
+      parameters:
+        image:
+          type: image
+          value: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/v1692276539/csk-marketing/Hero-Rectangle_nof1km_qy2ow6.png
+        objectFit:
+          type: select
+          value: cover
+        badgeStyle:
+          type: tp-badge-style-parameter
+          value: accent
+        buttonLink:
+          type: link
+          value:
+            path: /:language/components/heroes
+            type: projectMapNode
+            nodeId: fc8a9187-2ae6-4a07-b6e4-6a81b97b0779
+            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+            dynamicInputValues:
+              language: ${language}
+        overlayColor:
+          type: tp-color-style-parameter
+          value: base-300
+        overlayOpacity:
+          type: tp-slider-parameter
+          value: 50%
+    7b5727cd-0fb9-499d-a25e-20840390f257:
+      variant: backgroundDarkImage
+      parameters:
+        image:
+          type: image
+          value: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/v1692276482/csk-marketing/Rectangle_7_2_uupdjo_wm94da.webp
+        primaryButtonLink:
+          type: link
+          value:
+            path: /en/components
+            type: projectMapNode
+            nodeId: cab3997c-e1bb-4846-be31-9afeae37c5d4
+            projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+            dynamicInputValues:
+              language: ${language}
+    ad9d6729-8040-4c46-9842-403f92b6fc21:
+      parameters:
+        icon:
+          type: image
+          value: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/v1692276740/csk-icons/icon-improve_jkerfy_z0qxiy.svg
+    eeb37284-00f8-40a4-b6b1-cf14a2cc0b05:
+      parameters:
+        icon:
+          type: image
+          value: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/v1692276654/csk-icons/icon-drive_le2khu_i6jwy8.svg
+    f0a21914-6b1e-429e-949f-7ba8a3dbeb04:
+      parameters:
+        icon:
+          type: image
+          value: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/v1692276689/csk-icons/icon-understand_eytz6h_cgirir.svg
+    f4ffb6db-adf6-4167-9b00-cffa3206cd9a:
+      parameters:
+        icon:
+          type: image
+          value: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/v1692276689/csk-icons/icon-understand_eytz6h_cgirir.svg
+    f76450ed-3a4b-4037-9f41-a8057f4d5d3b:
+      parameters:
+        icon:
+          type: image
+          value: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/v1692276654/csk-icons/icon-drive_le2khu_i6jwy8.svg
+    f8d84a75-d8be-4b9f-af31-3b2cb452b560:
+      variant: imageRight
+      parameters:
+        image:
+          type: image
+          value: >-
+            https://res.cloudinary.com/uniform-demos/image/upload/v1692276539/csk-marketing/Hero-Rectangle_nof1km_qy2ow6.png
+        primaryButtonLink:
+          type: link
+          value:
+            path: https://uniform.dev/demo?utm_source=component-starter-kit
+            type: url
+        secondaryButtonLink:
+          type: link
+          value:
+            path: https://uniform.dev/try?utm_source=component-starter-kit
+            type: url
+        secondaryButtonStyle:
+          type: tp-button-style-parameter
+          value: link
+created: '2023-10-12T18:17:08.142454+00:00'
+modified: '2023-10-12T23:49:25.992624+00:00'
 pattern: false

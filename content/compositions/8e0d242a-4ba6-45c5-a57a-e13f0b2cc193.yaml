@@ -77,10 +77,12 @@ composition:
           primaryButtonLink:
             type: link
             value:
-              path: /:language/components/heroes
+              path: /${language}/components/heroes
               type: projectMapNode
               nodeId: fc8a9187-2ae6-4a07-b6e4-6a81b97b0779
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                language: ${language}
       - _id: 3d70a978-47f9-487a-9a3b-55fb72f71b4b
         type: hero
         variant: backgroundLightImage
@@ -113,10 +115,12 @@ composition:
           primaryButtonLink:
             type: link
             value:
-              path: /:language/components/heroes
+              path: /${language}/components/heroes
               type: projectMapNode
               nodeId: fc8a9187-2ae6-4a07-b6e4-6a81b97b0779
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                language: ${language}
           primaryButtonStyle:
             type: tp-button-style-parameter
             value: accent
@@ -146,20 +150,24 @@ composition:
           primaryButtonLink:
             type: link
             value:
-              path: /:language/components/heroes
+              path: /${language}/components/heroes
               type: projectMapNode
               nodeId: fc8a9187-2ae6-4a07-b6e4-6a81b97b0779
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                language: ${language}
           secondaryButtonCopy:
             type: text
             value: Secondary CTA
           secondaryButtonLink:
             type: link
             value:
-              path: /:language/components/heroes
+              path: /${language}/components/heroes
               type: projectMapNode
               nodeId: fc8a9187-2ae6-4a07-b6e4-6a81b97b0779
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                language: ${language}
           secondaryButtonStyle:
             type: tp-button-style-parameter
             value: link
@@ -189,23 +197,27 @@ composition:
           primaryButtonLink:
             type: link
             value:
-              path: /:language/components/heroes
+              path: /${language}/components/heroes
               type: projectMapNode
               nodeId: fc8a9187-2ae6-4a07-b6e4-6a81b97b0779
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                language: ${language}
           secondaryButtonCopy:
             type: text
             value: Secondary CTA
           secondaryButtonLink:
             type: link
             value:
-              path: /:language/components/heroes
+              path: /${language}/components/heroes
               type: projectMapNode
               nodeId: fc8a9187-2ae6-4a07-b6e4-6a81b97b0779
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                language: ${language}
           secondaryButtonStyle:
             type: tp-button-style-parameter
             value: accent
-created: '2023-08-08T13:08:40.208427+00:00'
-modified: '2023-08-08T13:08:40.208427+00:00'
+created: '2023-10-12T18:17:08.391158+00:00'
+modified: '2023-10-13T00:01:56.9652+00:00'
 pattern: false

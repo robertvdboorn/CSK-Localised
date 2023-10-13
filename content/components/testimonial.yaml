@@ -67,15 +67,14 @@ parameters:
       maxValue: 10
       minValue: 0
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
-description: ''
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/csk-preview-images/UniformTheme/Testimonial_preview_image
 useTeamPermissions: true
 slots: []
 titleParameter: personName
 canBeComposition: false
-created: '2023-08-28T12:30:19.555695+00:00'
-updated: '2023-08-28T12:30:19.555695+00:00'
+created: '2023-10-12T18:17:02.928863+00:00'
+updated: '2023-10-12T18:17:02.928863+00:00'
 variants:
   - id: cardWrapped
     name: Card Wrapped

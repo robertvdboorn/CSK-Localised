@@ -125,7 +125,6 @@ parameters:
         - text: player
           value: player
 categoryId: 31fcffb0-aead-4256-8e49-4d50cc28aa29
-description: ''
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/csk-preview-images/UniformTheme/page_preview_image
 useTeamPermissions: true
@@ -221,5 +220,5 @@ defaults:
             value: true
 titleParameter: pageTitle
 canBeComposition: true
-created: '2023-08-28T12:30:19.861272+00:00'
-updated: '2023-08-28T12:30:19.861272+00:00'
+created: '2023-10-12T18:17:02.739054+00:00'
+updated: '2023-10-12T18:17:02.739054+00:00'

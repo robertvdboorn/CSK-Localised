@@ -1,0 +1,22 @@
+created: '2023-10-12T22:20:43.367115+00:00'
+modified: '2023-10-12T22:21:07.8215+00:00'
+entry:
+  _id: fcdd10be-a0fd-442c-9a77-1a4e7a233892
+  _name: Uniform's Component Starterset
+  _slug: hero-homepage-nl
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Uniform's Component Starterset
+    description:
+      type: text
+      value: >-
+        Een essentiële set van componenten die je nodig hebt om
+        gepersonaliseerde webervaringen met Uniform te beginnen bouwen.
+    eyebrowText:
+      type: text
+      value: hallo en welkom! dit is
+    primaryButtonCopy:
+      type: text
+      value: Bekijk DE componenten

@@ -99,15 +99,14 @@ parameters:
       maxValue: 10
       minValue: 0
 categoryId: 2da8c924-14d5-470b-9fe4-1e56521551e5
-description: ''
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/csk-preview-images/UniformTheme/Review_preview_image
 useTeamPermissions: true
 slots: []
 titleParameter: personName
 canBeComposition: false
-created: '2023-08-28T12:30:19.579649+00:00'
-updated: '2023-08-28T12:30:19.579649+00:00'
+created: '2023-10-12T18:17:02.988962+00:00'
+updated: '2023-10-12T18:17:02.988962+00:00'
 variants:
   - id: multiColumn
     name: Multi Column

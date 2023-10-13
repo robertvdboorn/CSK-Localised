@@ -1,0 +1,16 @@
+created: '2023-10-12T23:00:53.64244+00:00'
+modified: '2023-10-12T23:01:13.904317+00:00'
+entry:
+  _id: b32c3404-8245-479b-b9b7-334590e08c7c
+  _name: Bring your CMS and commerce content
+  _slug: f4-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Bring your CMS and commerce content
+    description:
+      type: text
+      value: >-
+        Leverage our latest integrations to bring content from your own Headless
+        CMS and/or Commerce systems without any glue code.

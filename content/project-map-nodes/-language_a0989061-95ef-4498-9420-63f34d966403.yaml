@@ -2,7 +2,7 @@ id: a0989061-95ef-4498-9420-63f34d966403
 name: Homepage
 type: composition
 data:
-  previewValue: ''
+  previewValue: en
 order: 300
 path: /:language
 compositionId: 552a8a72-6c47-4993-bc45-f0148ea79904

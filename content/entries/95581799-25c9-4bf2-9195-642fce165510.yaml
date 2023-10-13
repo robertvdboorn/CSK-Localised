@@ -1,0 +1,20 @@
+created: '2023-10-12T22:28:35.826335+00:00'
+modified: '2023-10-12T22:32:03.09895+00:00'
+entry:
+  _id: 95581799-25c9-4bf2-9195-642fce165510
+  _name: Built with the modern stack!
+  _slug: fc-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Built with the modern stack!
+    description:
+      type: text
+      value: >
+        Our Component Starter Kit is built on a TNT stack - Typescript, Next.js,
+        and TailwindCSS. That means it’s completely customizable and adaptable
+        for what you need to build.
+    eyebrowText:
+      type: text
+      value: something for the developers

@@ -1,0 +1,14 @@
+created: '2023-10-12T23:36:13.538784+00:00'
+modified: '2023-10-12T23:36:27.090262+00:00'
+entry:
+  _id: 02014391-b7c0-4914-a845-206370b4a899
+  _name: Kan ik deze componenten gebruiken voor commerciële
+  _slug: faqentry2-homepage-nl
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Kan ik deze componenten gebruiken voor commerciële projecten?
+    description:
+      type: text
+      value: ' Ja dat kan! We zouden erg blij zijn als je dat doet.'

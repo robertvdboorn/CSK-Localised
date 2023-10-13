@@ -1,0 +1,16 @@
+created: '2023-10-12T23:35:44.92516+00:00'
+modified: '2023-10-12T23:36:09.820955+00:00'
+entry:
+  _id: 80cc39b1-b288-4546-808e-68b1e67421f8
+  _name: Hoeveel kost de Component Starterset?
+  _slug: faqentry-homepage-nl
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Hoeveel kost de Component Starterset?
+    description:
+      type: text
+      value: >-
+        Precies $0. Deze componenten zijn volledig open source en beschikbaar
+        voor iedereen om te gebruiken.

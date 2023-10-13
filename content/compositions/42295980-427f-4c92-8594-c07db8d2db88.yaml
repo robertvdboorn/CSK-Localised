@@ -1,0 +1,27 @@
+composition:
+  _name: Feature Pattern
+  _id: 42295980-427f-4c92-8594-c07db8d2db88
+  type: feature
+  parameters:
+    title:
+      type: text
+      value: ${#jptr:/Call to Action By Slug Content/entry/fields/title/value}
+    description:
+      type: text
+      value: ${#jptr:/Call to Action By Slug Content/entry/fields/description/value}
+  _dataResources:
+    Call to Action By Slug Content:
+      type: callToActionBySlug
+      variables:
+        slug: f-homepage-en
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      icon: 'yes'
+      link: 'yes'
+      title: 'no'
+      description: 'no'
+created: '2023-10-12T22:39:11.063287+00:00'
+modified: '2023-10-12T22:40:09.551848+00:00'
+pattern: true

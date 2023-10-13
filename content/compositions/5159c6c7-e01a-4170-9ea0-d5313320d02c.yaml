@@ -1,0 +1,45 @@
+composition:
+  _name: Card Pattern
+  _id: 5159c6c7-e01a-4170-9ea0-d5313320d02c
+  type: card
+  parameters:
+    badge:
+      type: text
+      value: ${#jptr:/Call to Action By Slug Content/entry/fields/eyebrowText/value}
+    title:
+      type: text
+      value: ${#jptr:/Call to Action By Slug Content/entry/fields/title/value}
+    buttonCopy:
+      type: text
+      value: >-
+        ${#jptr:/Call to Action By Slug
+        Content/entry/fields/primaryButtonCopy/value}
+    description:
+      type: text
+      value: ${#jptr:/Call to Action By Slug Content/entry/fields/description/value}
+    lineCountRestriction:
+      type: tp-slider-parameter
+      value: none
+  _dataResources:
+    Call to Action By Slug Content:
+      type: callToActionBySlug
+      variables:
+        slug: c-homepage-en
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    variants: true
+    parameters:
+      badge: 'no'
+      image: 'yes'
+      badgeSize: 'yes'
+      objectFit: 'yes'
+      badgeStyle: 'yes'
+      buttonLink: 'yes'
+      buttonStyle: 'yes'
+      overlayColor: 'yes'
+      overlayOpacity: 'yes'
+      lineCountRestriction: 'yes'
+created: '2023-10-12T23:24:28.708568+00:00'
+modified: '2023-10-12T23:27:54.003981+00:00'
+pattern: true

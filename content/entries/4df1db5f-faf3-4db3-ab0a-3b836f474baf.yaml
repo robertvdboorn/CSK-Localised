@@ -1,0 +1,16 @@
+created: '2023-10-12T22:35:36.98103+00:00'
+modified: '2023-10-12T22:36:00.402498+00:00'
+entry:
+  _id: 4df1db5f-faf3-4db3-ab0a-3b836f474baf
+  _name: Clone, run locally, and customize
+  _slug: f-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Clone, run locally, and customize
+    description:
+      type: text
+      value: >-
+        We designed the starter kit for you to take it home and customize it
+        according to your needs. Go nuts!

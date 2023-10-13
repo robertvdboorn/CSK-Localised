@@ -1,0 +1,25 @@
+created: '2023-10-12T23:42:51.610548+00:00'
+modified: '2023-10-12T23:47:53.750148+00:00'
+entry:
+  _id: 4330b725-7b87-413c-b224-a0548c13e2c2
+  _name: Nu is het tijd om te zien hoe Uniform je kan helpen bij het...
+  _slug: hero2-homepage-nl
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: >-
+        Nu is het tijd om te zien hoe Uniform je kan helpen bij het versnellen
+        van het bouwen van moderne digitale ervaringen.
+    description:
+      type: text
+      value: We laten het je graag zien.
+    eyebrowText:
+      type: text
+      value: Dit is pas Empowerment!
+    primaryButtonCopy:
+      type: text
+      value: Boek een demo
+    secondaryButtonCopy:
+      type: text
+      value: Geen Uniform toegang? Vraag aan

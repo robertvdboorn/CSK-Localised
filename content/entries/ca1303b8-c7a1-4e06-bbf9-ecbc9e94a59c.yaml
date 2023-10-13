@@ -1,0 +1,20 @@
+created: '2023-10-12T22:57:47.47866+00:00'
+modified: '2023-10-12T22:58:16.340575+00:00'
+entry:
+  _id: ca1303b8-c7a1-4e06-bbf9-ecbc9e94a59c
+  _name: Ontketen uw inhoud. Ontketen van de backlog.
+  _slug: fc2-homepage-nl
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Ontketen uw inhoud. Ontketen van de backlog.
+    description:
+      type: text
+      value: >-
+        De hele bibliotheek is open source en is gebaseerd op TailwindCSS en
+        DaisyUI, waardoor het gemakkelijk is om het aan te passen aan uw
+        merkstijl.
+    eyebrowText:
+      type: text
+      value: iets voor de marketeer

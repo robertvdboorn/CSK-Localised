@@ -1,0 +1,16 @@
+created: '2023-10-12T22:37:15.194817+00:00'
+modified: '2023-10-12T22:37:35.210439+00:00'
+entry:
+  _id: f881fc3c-167e-47d0-ad8f-4196fc5defc8
+  _name: Completely adaptable
+  _slug: f3-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Completely adaptable
+    description:
+      type: text
+      value: >-
+        The whole library is open source and based on TailwindCSS and DaisyUI,
+        making it easy for you to adapt to your brand style.

@@ -1,0 +1,14 @@
+created: '2023-10-12T23:33:53.631248+00:00'
+modified: '2023-10-12T23:34:08.865525+00:00'
+entry:
+  _id: 652e82ec-4219-49dd-8c7b-f45b9d2f3db0
+  _name: Can I use these components for commercial projects?
+  _slug: faqentry2-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Can I use these components for commercial projects?
+    description:
+      type: text
+      value: Yes you can! We’d be very happy if you do.

@@ -1,0 +1,26 @@
+created: '2023-10-12T23:41:45.836323+00:00'
+modified: '2023-10-12T23:42:29.749111+00:00'
+entry:
+  _id: 8d803c6d-9140-41e8-bfc0-6d043916c807
+  _name: Now it's time to see how Uniform can help you accelerate...
+  _slug: hero2-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: >-
+        Now it's time to see how Uniform can help you accelerate building modern
+        digital experiences.
+    description:
+      type: text
+      value: |
+        We’d love to show you.
+    eyebrowText:
+      type: text
+      value: Now this is Empowering!
+    primaryButtonCopy:
+      type: text
+      value: Book a free demo now
+    secondaryButtonCopy:
+      type: text
+      value: No Uniform access? Request one

@@ -86,10 +86,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/heroes
+                          path: /${language}/components/heroes
                           type: projectMapNode
                           nodeId: fc8a9187-2ae6-4a07-b6e4-6a81b97b0779
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       buttonStyle:
                         type: tp-button-style-parameter
                         value: primary
@@ -125,10 +127,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/calls-to-action
+                          path: /${language}/components/calls-to-action
                           type: projectMapNode
                           nodeId: 408d4a7c-de15-4029-9521-05df3f20bdfc
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       buttonStyle:
                         type: tp-button-style-parameter
                         value: primary
@@ -161,10 +165,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/featured-callouts
+                          path: /${language}/components/featured-callouts
                           type: projectMapNode
                           nodeId: 97c2b0b3-66d9-4ecd-88dd-36bf5ce8144a
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       description:
                         type: text
                         value: Featured image, title, text and icon bullets.
@@ -194,10 +200,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/card-blocks
+                          path: /${language}/components/card-blocks
                           type: projectMapNode
                           nodeId: 88ede0b7-bb7c-4d6b-b3f8-10b545bd986b
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       description:
                         type: text
                         value: List of cards and title / text
@@ -227,10 +235,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/accordions
+                          path: /${language}/components/accordions
                           type: projectMapNode
                           nodeId: 626584c7-ec70-45eb-80ee-a4cda36d0a58
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       description:
                         type: text
                         value: Not your grandpa's accordion!
@@ -260,10 +270,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/content-blocks
+                          path: /${language}/components/content-blocks
                           type: projectMapNode
                           nodeId: 435b7a20-cf5a-4e2a-a1ce-f674fe7ee044
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       description:
                         type: text
                         value: title ❤️ text rendezvous
@@ -296,10 +308,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/images
+                          path: /${language}/components/images
                           type: projectMapNode
                           nodeId: ef6da4d5-cb59-4d0a-91b5-1c8021bbb786
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       description:
                         type: text
                         value: You can't build a website without one, you know?
@@ -329,10 +343,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/layouts-container
+                          path: /${language}/components/layouts-container
                           type: projectMapNode
                           nodeId: a99b4044-8f9a-48fc-9f58-6c2fe4fb7534
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       description:
                         type: text
                         value: >-
@@ -364,10 +380,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/carousels
+                          path: /${language}/components/carousels
                           type: projectMapNode
                           nodeId: fcebf9c9-e734-4e7b-94e5-be922d36de19
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       description:
                         type: text
                         value: >-
@@ -399,10 +417,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/headers-topnav
+                          path: /${language}/components/headers-topnav
                           type: projectMapNode
                           nodeId: e0558074-87bb-41c9-962d-814853d8f829
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       description:
                         type: text
                         value: >-
@@ -430,10 +450,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/breadcrumbs
+                          path: /${language}/components/breadcrumbs
                           type: projectMapNode
                           nodeId: aeed197a-ba51-497f-8f3e-92dc601918f2
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       description:
                         type: text
                         value: >-
@@ -464,10 +486,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/spacers-dividers
+                          path: /${language}/components/spacers-dividers
                           type: projectMapNode
                           nodeId: 8f4c8afc-f1a0-4443-855d-e5499eb9a91b
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       description:
                         type: text
                         value: We all need a little bit of space sometimes.
@@ -521,10 +545,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/rich-texts
+                          path: /${language}/components/rich-texts
                           type: projectMapNode
                           nodeId: 00a9c22c-831d-4a04-ac70-d9313cf74f5c
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       description:
                         type: text
                         value: >-
@@ -553,10 +579,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/videos
+                          path: /${language}/components/videos
                           type: projectMapNode
                           nodeId: 98bc7d92-11bc-491b-9b1c-391760a3c875
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       description:
                         type: text
                         value: >-
@@ -585,10 +613,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/pdp
+                          path: /${language}/components/pdp
                           type: projectMapNode
                           nodeId: f28599b9-2a0e-4f69-be98-9c32278237d4
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       description:
                         type: text
                         value: >-
@@ -622,10 +652,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/banners
+                          path: /${language}/components/banners
                           type: projectMapNode
                           nodeId: 7a7b2f31-988c-47b2-abd9-e601b0ede3d9
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       description:
                         type: text
                         value: Ron LaFlamme will tell you need one.
@@ -657,10 +689,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/reviews
+                          path: /${language}/components/reviews
                           type: projectMapNode
                           nodeId: d42bee8b-afda-49e3-8691-54ce2f39f809
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       description:
                         type: text
                         value: Count those stars in your reviews.
@@ -692,10 +726,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/modals
+                          path: /${language}/components/modals
                           type: projectMapNode
                           nodeId: db6f4ac5-c28f-4305-a0d6-81e8db74e61c
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       description:
                         type: text
                         value: >-
@@ -729,10 +765,12 @@ composition:
                       buttonLink:
                         type: link
                         value:
-                          path: /:language/components/testimonials
+                          path: /${language}/components/testimonials
                           type: projectMapNode
                           nodeId: 6e8d556b-b9b7-4f21-a533-bcb2ef9d5c76
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                          dynamicInputValues:
+                            language: ${language}
                       description:
                         type: text
                         value: >-
@@ -820,6 +858,6 @@ composition:
           description:
             type: text
             value: This is just a glimpse of what's around the corner.
-created: '2023-08-18T09:11:32.778631+00:00'
-modified: '2023-08-28T11:14:49.93611+00:00'
+created: '2023-10-12T18:17:05.958082+00:00'
+modified: '2023-10-12T23:56:39.878694+00:00'
 pattern: false

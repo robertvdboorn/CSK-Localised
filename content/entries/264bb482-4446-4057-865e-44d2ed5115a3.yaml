@@ -1,0 +1,16 @@
+created: '2023-10-12T23:36:30.496167+00:00'
+modified: '2023-10-12T23:36:43.84684+00:00'
+entry:
+  _id: 264bb482-4446-4057-865e-44d2ed5115a3
+  _name: Komen er nog meer componenten?
+  _slug: faqentry3-homepage-nl
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: ' Komen er nog meer componenten?'
+    description:
+      type: text
+      value: >-
+        Die komen er, en we hebben enkele grote ideeën. Neem contact op als er
+        iets is dat je hier wilt zien.

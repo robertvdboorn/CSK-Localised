@@ -1,0 +1,16 @@
+created: '2023-10-12T23:33:11.436032+00:00'
+modified: '2023-10-12T23:33:49.616154+00:00'
+entry:
+  _id: 232c830f-f521-4ea7-873f-27c29a18ff84
+  _name: How much does the Component Starter Kit cost?
+  _slug: faqentry-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: How much does the Component Starter Kit cost?
+    description:
+      type: text
+      value: >-
+        Exactly $0. These components are totally open source and available for
+        anyone to use.

@@ -1,0 +1,14 @@
+created: '2023-10-12T22:36:37.686829+00:00'
+modified: '2023-10-12T22:37:10.465239+00:00'
+entry:
+  _id: 03f01925-2fdd-49d1-922b-e71f52cc048e
+  _name: Optimized for performance
+  _slug: f2-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Optimized for performance
+    description:
+      type: text
+      value: Lightweight React components help keep your Core Web Vitals green.

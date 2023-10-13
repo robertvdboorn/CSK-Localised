@@ -224,7 +224,7 @@ composition:
                       link:
                         type: link
                         value:
-                          path: /components
+                          path: /:language/components
                           type: projectMapNode
                           nodeId: cab3997c-e1bb-4846-be31-9afeae37c5d4
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -422,7 +422,7 @@ composition:
                       link:
                         type: link
                         value:
-                          path: /components
+                          path: /:language/components
                           type: projectMapNode
                           nodeId: cab3997c-e1bb-4846-be31-9afeae37c5d4
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -922,7 +922,7 @@ composition:
                       link:
                         type: link
                         value:
-                          path: /components
+                          path: /:language/components
                           type: projectMapNode
                           nodeId: cab3997c-e1bb-4846-be31-9afeae37c5d4
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -1282,7 +1282,7 @@ composition:
                             primaryButtonLink:
                               type: link
                               value:
-                                path: /components
+                                path: /:language/components
                                 type: projectMapNode
                                 nodeId: cab3997c-e1bb-4846-be31-9afeae37c5d4
                                 projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -1296,7 +1296,7 @@ composition:
                       link:
                         type: link
                         value:
-                          path: /components
+                          path: /:language/components
                           type: projectMapNode
                           nodeId: cab3997c-e1bb-4846-be31-9afeae37c5d4
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -1567,7 +1567,7 @@ composition:
                             secondaryButtonLink:
                               type: link
                               value:
-                                path: /components
+                                path: /:language/components
                                 type: projectMapNode
                                 nodeId: cab3997c-e1bb-4846-be31-9afeae37c5d4
                                 projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -1578,7 +1578,7 @@ composition:
                       link:
                         type: link
                         value:
-                          path: /components
+                          path: /:language/components
                           type: projectMapNode
                           nodeId: cab3997c-e1bb-4846-be31-9afeae37c5d4
                           projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
@@ -1612,6 +1612,6 @@ composition:
           thickness:
             type: tp-slider-parameter
             value: 230px
-created: '2023-08-18T09:11:33.295673+00:00'
-modified: '2023-08-28T10:47:43.211601+00:00'
+created: '2023-10-12T18:17:06.184123+00:00'
+modified: '2023-10-12T18:17:06.184123+00:00'
 pattern: false

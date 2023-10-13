@@ -1,0 +1,18 @@
+created: '2023-10-12T22:00:37.814674+00:00'
+modified: '2023-10-12T22:27:05.448761+00:00'
+entry:
+  _id: f3f601f3-2457-40a2-bfd6-957ab2ce0349
+  _name: How will Component Starter Kit help you?
+  _slug: cta-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: How will Component Starter Kit help you?
+    description:
+      type: text
+      value: >-
+        The Component Starter kit gives you the key building blocks to create
+        dynamic and compelling web experiences and demonstrate the power of
+        digital experience composition in Uniform. Just install, customize and
+        start creating.

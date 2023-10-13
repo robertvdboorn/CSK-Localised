@@ -1,0 +1,20 @@
+created: '2023-10-12T23:21:13.31371+00:00'
+modified: '2023-10-12T23:26:30.262956+00:00'
+entry:
+  _id: 9dac6c31-ec37-4bd8-8e39-69d10aed1831
+  _name: Featured Callouts
+  _slug: c3-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Featured Callouts
+    description:
+      type: text
+      value: The call of the wild
+    eyebrowText:
+      type: text
+      value: ' New'
+    primaryButtonCopy:
+      type: text
+      value: See more

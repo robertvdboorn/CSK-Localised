@@ -1,0 +1,16 @@
+created: '2023-10-12T22:36:05.550918+00:00'
+modified: '2023-10-12T22:36:28.432642+00:00'
+entry:
+  _id: ce076208-1661-40c4-b7e6-00b882525be1
+  _name: Kloon, voer lokaal uit en pas aan
+  _slug: f-homepage-nl
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Kloon, voer lokaal uit en pas aan
+    description:
+      type: text
+      value: >-
+        We hebben de starterset ontworpen zodat u hem mee naar huis kunt nemen
+        en aanpassen aan uw behoeften. Ga ervoor!

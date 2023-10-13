@@ -1,0 +1,16 @@
+created: '2023-10-12T23:10:07.850192+00:00'
+modified: '2023-10-12T23:10:27.456337+00:00'
+entry:
+  _id: d2f9c20f-b4e1-44cb-894a-dafa4bc3ee6e
+  _name: Featured components
+  _slug: cb-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Featured components
+    description:
+      type: text
+      value: >-
+        There are lots of components to choose from, but these are our
+        favorites. There are more coming, so it's always worth checking again.

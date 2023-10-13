@@ -184,51 +184,106 @@ composition:
       value: true
   slots:
     section:
-      - _id: 6d0c5ff7-19ef-48f2-9ec8-97c65cec38ac
-        type: footerSection
+      - _id: dbeccb2d-84fd-46eb-8608-cfd6a45dee89
+        type: $localization
         slots:
-          links:
-            - _id: 6e5548bb-f480-4930-aa19-475a0b05f431
-              type: navigationLink
-              variant: footer
+          localized:
+            - _id: 6d0c5ff7-19ef-48f2-9ec8-97c65cec38ac
+              type: footerSection
+              slots:
+                links:
+                  - _id: 6e5548bb-f480-4930-aa19-475a0b05f431
+                    type: navigationLink
+                    variant: footer
+                    parameters:
+                      link:
+                        type: link
+                        value:
+                          path: >-
+                            https://docs.uniform.app/docs/get-started/component-starter-kit
+                          type: url
+                      title:
+                        type: text
+                        value: Documentation
+                  - _id: 5b5c7862-e6f7-40f6-9a51-f06299d3ecd7
+                    type: navigationLink
+                    variant: footer
+                    parameters:
+                      link:
+                        type: link
+                        value:
+                          path: https://components-storybook.uniform.app/
+                          type: url
+                      title:
+                        type: text
+                        value: Storybook
+                  - _id: e5365d0c-00d9-42d2-90eb-4446084cc3c0
+                    type: navigationLink
+                    variant: footer
+                    parameters:
+                      link:
+                        type: link
+                        value:
+                          path: https://components.uniform.app/
+                          type: url
+                      title:
+                        type: text
+                        value: Demo
               parameters:
-                link:
-                  type: link
-                  value:
-                    path: >-
-                      https://docs.uniform.app/docs/get-started/component-starter-kit
-                    type: url
                 title:
                   type: text
-                  value: Documentation
-            - _id: 5b5c7862-e6f7-40f6-9a51-f06299d3ecd7
-              type: navigationLink
-              variant: footer
+                  value: Key resources
+                locale:
+                  type: localeSelect
+                  value: en
+            - _id: 9fa55a97-59d8-4678-8e6f-09c0a994f785
+              type: footerSection
+              slots:
+                links:
+                  - _id: 790f19b3-fd3f-4606-ae82-a04e7cb65548
+                    type: navigationLink
+                    variant: footer
+                    parameters:
+                      link:
+                        type: link
+                        value:
+                          path: >-
+                            https://docs.uniform.app/docs/get-started/component-starter-kit
+                          type: url
+                      title:
+                        type: text
+                        value: Documentatie
+                  - _id: 3913025d-ee75-4b65-8e45-6935ad68aba8
+                    type: navigationLink
+                    variant: footer
+                    parameters:
+                      link:
+                        type: link
+                        value:
+                          path: https://components-storybook.uniform.app/
+                          type: url
+                      title:
+                        type: text
+                        value: Storybook
+                  - _id: 07614cca-66e2-4bbf-924b-0133878e04fb
+                    type: navigationLink
+                    variant: footer
+                    parameters:
+                      link:
+                        type: link
+                        value:
+                          path: https://components.uniform.app/
+                          type: url
+                      title:
+                        type: text
+                        value: Demo
               parameters:
-                link:
-                  type: link
-                  value:
-                    path: https://components-storybook.uniform.app/
-                    type: url
                 title:
                   type: text
-                  value: Storybook
-            - _id: e5365d0c-00d9-42d2-90eb-4446084cc3c0
-              type: navigationLink
-              variant: footer
-              parameters:
-                link:
-                  type: link
-                  value:
-                    path: https://components.uniform.app/
-                    type: url
-                title:
-                  type: text
-                  value: Demo
-        parameters:
-          title:
-            type: text
-            value: Key resources
+                  value: Belangrijke bronnen
+                locale:
+                  type: localeSelect
+                  value: nl
     iconLinks:
       - _id: 5ebfeac4-2e19-42fa-b71c-e3ffb179bc61
         type: iconLink
@@ -254,8 +309,8 @@ composition:
             value:
               path: https://github.com/uniformdev/uniform-component-starter-kit
               type: url
-created: '2023-08-25T08:44:13.732878+00:00'
-modified: '2023-08-28T11:54:19.908497+00:00'
+created: '2023-10-12T18:17:05.31185+00:00'
+modified: '2023-10-12T23:52:49.676993+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/csk-preview-images/UniformTheme/Footer_preview_image

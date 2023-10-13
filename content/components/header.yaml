@@ -61,7 +61,6 @@ parameters:
     helpText: ''
     typeConfig: null
 categoryId: 1bf9504a-07c4-4873-bbca-f235a6da182b
-description: ''
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/csk-preview-images/UniformTheme/Header_preview_image
 useTeamPermissions: true
@@ -72,6 +71,7 @@ slots:
       - navigationLink
       - navigationGroup
       - navigationMenu
+      - $localization
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
@@ -79,13 +79,14 @@ slots:
     name: Icon Links
     allowedComponents:
       - iconLink
+      - $localization
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
 titleParameter: linksAlignment
 canBeComposition: false
-created: '2023-08-28T12:30:18.569126+00:00'
-updated: '2023-08-29T08:19:38.827482+00:00'
+created: '2023-10-12T18:17:02.680322+00:00'
+updated: '2023-10-12T20:41:54.242977+00:00'
 variants:
   - id: light
     name: Light

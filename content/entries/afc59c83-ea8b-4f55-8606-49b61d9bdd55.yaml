@@ -1,0 +1,14 @@
+created: '2023-10-12T22:01:44.15548+00:00'
+modified: '2023-10-12T22:05:57.663764+00:00'
+entry:
+  _id: afc59c83-ea8b-4f55-8606-49b61d9bdd55
+  _name: Hoe helpt de Component Starterset jou?
+  _slug: cta-homepage-nl
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Hoe helpt de Component Starterset jou?
+    description:
+      type: text
+      value: ' Component Starterset geeft u de essentiële bouwstenen om dynamische en overtuigende webervaringen te creëren en de kracht van digitale ervaringssamenstelling in Uniform te demonstreren. Installeer gewoon, pas aan en begin met creëren.'

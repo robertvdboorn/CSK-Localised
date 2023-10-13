@@ -1,0 +1,16 @@
+created: '2023-10-12T23:34:20.96173+00:00'
+modified: '2023-10-12T23:34:34.045921+00:00'
+entry:
+  _id: d3a9ab19-33d1-4946-ab37-8ee794bdafc5
+  _name: Are there more components coming?
+  _slug: faqentry3-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Are there more components coming?
+    description:
+      type: text
+      value: >-
+        There will be, and we have some big ideas. Get in touch if there’s
+        anything you want to see here.

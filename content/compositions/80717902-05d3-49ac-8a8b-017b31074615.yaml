@@ -85,9 +85,12 @@ composition:
                 buttonLink:
                   type: link
                   value:
-                    path: /
-                    nodeId: 5a9c6cac-a0cd-43ca-b2df-8706b1f4ba81
+                    path: /${language}
+                    type: projectMapNode
+                    nodeId: a0989061-95ef-4498-9420-63f34d966403
                     projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      language: ${language}
                 buttonStyle:
                   type: tp-button-style-parameter
                   value: primary
@@ -132,9 +135,12 @@ composition:
                 buttonLink:
                   type: link
                   value:
-                    path: /
-                    nodeId: 5a9c6cac-a0cd-43ca-b2df-8706b1f4ba81
+                    path: /${language}
+                    type: projectMapNode
+                    nodeId: a0989061-95ef-4498-9420-63f34d966403
                     projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      language: ${language}
                 buttonStyle:
                   type: tp-button-style-parameter
                   value: primary
@@ -173,9 +179,12 @@ composition:
                 buttonLink:
                   type: link
                   value:
-                    path: /
-                    nodeId: 5a9c6cac-a0cd-43ca-b2df-8706b1f4ba81
+                    path: /${language}
+                    type: projectMapNode
+                    nodeId: a0989061-95ef-4498-9420-63f34d966403
                     projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      language: ${language}
                 buttonStyle:
                   type: tp-button-style-parameter
                   value: primary
@@ -354,9 +363,12 @@ composition:
                 buttonLink:
                   type: link
                   value:
-                    path: /
-                    nodeId: 5a9c6cac-a0cd-43ca-b2df-8706b1f4ba81
+                    path: /${language}
+                    type: projectMapNode
+                    nodeId: a0989061-95ef-4498-9420-63f34d966403
                     projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      language: ${language}
                 buttonStyle:
                   type: tp-button-style-parameter
                   value: primary
@@ -383,9 +395,12 @@ composition:
                 buttonLink:
                   type: link
                   value:
-                    path: /
-                    nodeId: 5a9c6cac-a0cd-43ca-b2df-8706b1f4ba81
+                    path: /${language}
+                    type: projectMapNode
+                    nodeId: a0989061-95ef-4498-9420-63f34d966403
                     projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      language: ${language}
                 description:
                   type: text
                   value: Compelling description
@@ -409,9 +424,12 @@ composition:
                 buttonLink:
                   type: link
                   value:
-                    path: /
-                    nodeId: 5a9c6cac-a0cd-43ca-b2df-8706b1f4ba81
+                    path: /${language}
+                    type: projectMapNode
+                    nodeId: a0989061-95ef-4498-9420-63f34d966403
                     projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+                    dynamicInputValues:
+                      language: ${language}
                 description:
                   type: text
                   value: Compelling description
@@ -548,16 +566,18 @@ composition:
           buttonLink:
             type: link
             value:
-              path: /:language/components/card-blocks
+              path: /${language}
               type: projectMapNode
-              nodeId: 88ede0b7-bb7c-4d6b-b3f8-10b545bd986b
+              nodeId: a0989061-95ef-4498-9420-63f34d966403
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                language: ${language}
           titleStyle:
             type: tp-title-style-parameter
             value: h2
           description:
             type: text
             value: You spin me right round
-created: '2023-08-21T08:31:17.428553+00:00'
-modified: '2023-08-22T10:22:45.534708+00:00'
+created: '2023-10-12T18:17:08.167099+00:00'
+modified: '2023-10-12T23:59:04.021823+00:00'
 pattern: false

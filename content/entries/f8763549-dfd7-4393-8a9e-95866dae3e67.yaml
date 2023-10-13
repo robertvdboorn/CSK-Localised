@@ -1,0 +1,20 @@
+created: '2023-10-12T23:22:53.926912+00:00'
+modified: '2023-10-12T23:26:41.783265+00:00'
+entry:
+  _id: f8763549-dfd7-4393-8a9e-95866dae3e67
+  _name: Uitgelichte Oproepen
+  _slug: c3-homepage-nl
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: Uitgelichte Oproepen
+    description:
+      type: text
+      value: De roep van het wild
+    eyebrowText:
+      type: text
+      value: Nieuw
+    primaryButtonCopy:
+      type: text
+      value: Zie meer

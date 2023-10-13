@@ -20,7 +20,6 @@ parameters:
       multiline: true
       linesCount: '10'
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
-description: ''
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/csk-preview-images/UniformTheme/Accordion_preview_image
 useTeamPermissions: true
@@ -37,5 +36,5 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2023-08-28T12:30:17.330001+00:00'
-updated: '2023-08-28T12:30:17.330001+00:00'
+created: '2023-10-12T18:17:00.646873+00:00'
+updated: '2023-10-12T18:17:00.646873+00:00'

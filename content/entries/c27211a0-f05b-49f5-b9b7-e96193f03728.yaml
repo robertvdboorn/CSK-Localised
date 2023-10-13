@@ -1,0 +1,14 @@
+created: '2023-10-12T23:01:17.285697+00:00'
+modified: '2023-10-12T23:01:38.977448+00:00'
+entry:
+  _id: c27211a0-f05b-49f5-b9b7-e96193f03728
+  _name: No integration? No problem. No code required.
+  _slug: f5-homepage-en
+  type: callToAction
+  fields:
+    title:
+      type: text
+      value: ' No integration? No problem. No code required.'
+    description:
+      type: text
+      value: Bring content from any REST API without a single developer ticket.

@@ -73,10 +73,12 @@ composition:
           primaryButtonLink:
             type: link
             value:
-              path: /:language/components/calls-to-action
+              path: /${language}/components/calls-to-action
               type: projectMapNode
               nodeId: 408d4a7c-de15-4029-9521-05df3f20bdfc
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                language: ${language}
           primaryButtonStyle:
             type: tp-button-style-parameter
             value: primary
@@ -86,10 +88,12 @@ composition:
           secondaryButtonLink:
             type: link
             value:
-              path: /:language/components/calls-to-action
+              path: /${language}/components
               type: projectMapNode
-              nodeId: 408d4a7c-de15-4029-9521-05df3f20bdfc
+              nodeId: cab3997c-e1bb-4846-be31-9afeae37c5d4
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                language: ${language}
           secondaryButtonStyle:
             type: tp-button-style-parameter
             value: link
@@ -124,10 +128,12 @@ composition:
           primaryButtonLink:
             type: link
             value:
-              path: /:language/components/calls-to-action
+              path: /${language}/components/calls-to-action
               type: projectMapNode
               nodeId: 408d4a7c-de15-4029-9521-05df3f20bdfc
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                language: ${language}
           primaryButtonStyle:
             type: tp-button-style-parameter
             value: accent
@@ -162,10 +168,12 @@ composition:
           primaryButtonLink:
             type: link
             value:
-              path: /:language/components/calls-to-action
+              path: /${language}
               type: projectMapNode
-              nodeId: 408d4a7c-de15-4029-9521-05df3f20bdfc
+              nodeId: a0989061-95ef-4498-9420-63f34d966403
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                language: ${language}
           primaryButtonStyle:
             type: tp-button-style-parameter
             value: link
@@ -200,10 +208,12 @@ composition:
           primaryButtonLink:
             type: link
             value:
-              path: /:language/components/calls-to-action
+              path: /${language}/components/calls-to-action
               type: projectMapNode
               nodeId: 408d4a7c-de15-4029-9521-05df3f20bdfc
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                language: ${language}
           primaryButtonStyle:
             type: tp-button-style-parameter
             value: secondary
@@ -213,13 +223,15 @@ composition:
           secondaryButtonLink:
             type: link
             value:
-              path: /:language/components/calls-to-action
+              path: /${language}/components/calls-to-action
               type: projectMapNode
               nodeId: 408d4a7c-de15-4029-9521-05df3f20bdfc
               projectMapId: 40535f31-cdc1-4ac3-bb4d-2a008493b431
+              dynamicInputValues:
+                language: ${language}
           secondaryButtonStyle:
             type: tp-button-style-parameter
             value: link
-created: '2023-08-18T09:11:33.573716+00:00'
-modified: '2023-08-28T10:27:45.088322+00:00'
+created: '2023-10-12T18:17:06.666209+00:00'
+modified: '2023-10-13T00:00:44.472909+00:00'
 pattern: false

@@ -1,0 +1,19 @@
+id: filterPageDataBySlug
+displayName: Filter Page Data By Slug
+ttl: 30
+body: ''
+path: /single-by-slug
+custom:
+  proposedName: Page Data
+  uniformProjectId: ae669a28-4e57-4f4d-af37-984c52113ed9
+  allowedContentTypes:
+    - pageData
+method: GET
+purgeKey: 4c37788a-48be-4c06-a17c-582cc0ca9ec0
+archetype: singleEntryBySlug
+variables:
+  slug:
+    type: text
+    default: ''
+dataSourceId: cskLocalised
+allowedOnComponents: []

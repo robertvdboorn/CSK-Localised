@@ -1,0 +1,45 @@
+created: '2023-10-12T21:10:38.159215+00:00'
+modified: '2023-10-12T21:15:02.028299+00:00'
+entry:
+  _id: 33356c56-5b3b-4a94-96ff-f7a2ae370dff
+  _name: Uniform's Component Starterset - Nederlands
+  _slug: pagedata-homepage-nl
+  type: pageData
+  fields:
+    pageTitle:
+      type: text
+      value: Uniform's Component Starterset - Nederlands
+    twitterCard:
+      type: select
+      value: summary_large_image
+    pageKeywords:
+      type: text
+      value: uniform, nextjs, composable, cms, commerce
+    twitterImage:
+      type: text
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692277476/csk-marketing/Blog_header_CMSComparisonGuide_f5t1bj_tvwflz.png
+    twitterTitle:
+      type: text
+      value: Test Twitter Titel
+    openGraphType:
+      type: select
+      value: website
+    openGraphImage:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniform-demos/image/upload/v1692277476/csk-marketing/Blog_header_CMSComparisonGuide_f5t1bj_tvwflz.png
+    openGraphTitle:
+      type: text
+      value: Uniform // Component Starterset
+    twitterDescription:
+      type: text
+      value: Test Twitter Beschrijving
+    pageMetaDescription:
+      type: text
+      value: >-
+        Essentiële set van componenten die je nodig hebt om personaliseerbare
+        webervaringen met Uniform te beginnen bouwen.
+    overlayTitleToTwitterImage:
+      type: checkbox
+      value: true

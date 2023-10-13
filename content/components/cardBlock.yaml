@@ -55,7 +55,6 @@ parameters:
     helpText: ''
     typeConfig: null
 categoryId: ea001653-1f96-4f07-9187-a1626a4965e5
-description: ''
 previewImageUrl: >-
   https://res.cloudinary.com/uniform-demos/image/upload/v1/csk-preview-images/UniformTheme/Card_block_preview_image
 useTeamPermissions: true
@@ -74,8 +73,8 @@ slots:
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2023-08-28T12:30:17.394527+00:00'
-updated: '2023-08-28T12:30:17.394527+00:00'
+created: '2023-10-12T18:17:02.196649+00:00'
+updated: '2023-10-12T18:17:02.196649+00:00'
 variants:
   - id: carousel
     name: Carousel
